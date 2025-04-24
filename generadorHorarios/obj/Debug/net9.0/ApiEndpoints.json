@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "GeneradorHorarios.WebAPI.Controllers.HorarioController",
+    "Method": "GenerarHorario",
+    "RelativePath": "api/Horario/generar-horario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesor",
+        "Type": "GeneradorHorarios.Domain.Entities.Profesor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GeneradorHorarios.WebAPI.Controllers.HorarioController",
+    "Method": "RegistrarDisponibilidad",
+    "RelativePath": "api/Horario/registrar-disponibilidad",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesor",
+        "Type": "GeneradorHorarios.Domain.Entities.Profesor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
