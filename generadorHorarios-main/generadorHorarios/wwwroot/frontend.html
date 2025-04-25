@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Asignar Materia</title>
+</head>
+<body>
+  <h2>Asignar Materia a Profesor</h2>
+  <button onclick="cargarDatos()">Cargar Profesores y Materias</button>
+  <div id="formulario" style="display:none;">
+    <label>Profesor:</label>
+    <select id="profesor"></select>
+
+    <label>Materia disponible:</label>
+    <select id="materia"></select>
+
+    <button onclick="asignar()">Asignar Materia</button>
+    <button onclick="generar()">Generar Horario</button>
+  </div>
+
+  <pre id="respuesta"></pre>
+
+  <script>
+    async function cargarDatos() {
+      const profesores = await (await fetch('http://localhost:5275/api/Horario/profesores')).json();
+      const materias = await (await fetch('http://localhost:5275/api/Horario/materias-disponibles')).json();
+
+      const pSelect = document.getElementById("profesor");
+      const mSelect = document.getElementById("materia");
+      pSelect.innerHTML = "";
+      mSelect.innerHTML = "";
+
+      profesores.forEach(p => {
+        const opt = document.createElement("option");
+        opt.value = p.id;
+        opt.textContent = p.nombre;
+        pSelect.appendChild(opt);
+      });
+
+      materias.forEach(m => {
+        const opt = document.createElement("option");
+        opt.value = m.nombre;
+        opt.textContent = m.nombre;
+        mSelect.appendChild(opt);
+      });
+
+      document.getElementById("formulario").style.display = "block";
+    }
+
+    async function asignar() {
+      const profesorId = document.getElementById("profesor").value;
+      const materia = document.getElementById("materia").value;
+
+      const res = await fetch(`http://localhost:5275/api/Horario/asignar-materia?profesorId=${profesorId}&materia=${encodeURIComponent(materia)}`, {
+        method: "POST"
+      });
+
+      const text = await res.text();
+      document.getElementById("respuesta").textContent = text;
+    }
+
+    async function generar() {
+      const res = await fetch("http://localhost:5275/api/Horario/generar-horario", { method: "POST" });
+      const blob = await res.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "horario.txt";
+      a.click();
+    }
+  </script>
+</body>
+</html>

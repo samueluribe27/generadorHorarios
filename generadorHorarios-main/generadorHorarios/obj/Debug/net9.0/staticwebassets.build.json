@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "q4hcFObvdINT7YdXgAEz8cU5/OZzZacYGd65vZrG7JY=",
+  "Source": "GeneradorHorarios",
+  "BasePath": "_content/GeneradorHorarios",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GeneradorHorarios/wwwroot",
+      "Source": "GeneradorHorarios",
+      "ContentRoot": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/",
+      "BasePath": "_content/GeneradorHorarios",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/obj/Debug/net9.0/compressed/9bqzb508s9-abpei317qh.gz",
+      "SourceId": "GeneradorHorarios",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/GeneradorHorarios",
+      "RelativePath": "frontend#[.{fingerprint=abpei317qh}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/frontend.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bye2z6eqih",
+      "Integrity": "M/Od1+qpAX93TUE0fu1wkOj9VfNDOU5hj0cdtd6LF0c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/frontend.html"
+    },
+    {
+      "Identity": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/frontend.html",
+      "SourceId": "GeneradorHorarios",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/",
+      "BasePath": "_content/GeneradorHorarios",
+      "RelativePath": "frontend#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "abpei317qh",
+      "Integrity": "WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/frontend.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "frontend.abpei317qh.html",
+      "AssetFile": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/obj/Debug/net9.0/compressed/9bqzb508s9-abpei317qh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001245330012"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "802"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M/Od1+qpAX93TUE0fu1wkOj9VfNDOU5hj0cdtd6LF0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 06:40:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abpei317qh"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk="
+        }
+      ]
+    },
+    {
+      "Route": "frontend.abpei317qh.html",
+      "AssetFile": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/frontend.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 06:40:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abpei317qh"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk="
+        }
+      ]
+    },
+    {
+      "Route": "frontend.abpei317qh.html.gz",
+      "AssetFile": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/obj/Debug/net9.0/compressed/9bqzb508s9-abpei317qh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M/Od1+qpAX93TUE0fu1wkOj9VfNDOU5hj0cdtd6LF0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 06:40:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abpei317qh"
+        },
+        {
+          "Name": "label",
+          "Value": "frontend.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M/Od1+qpAX93TUE0fu1wkOj9VfNDOU5hj0cdtd6LF0c="
+        }
+      ]
+    },
+    {
+      "Route": "frontend.html",
+      "AssetFile": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/obj/Debug/net9.0/compressed/9bqzb508s9-abpei317qh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001245330012"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "802"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M/Od1+qpAX93TUE0fu1wkOj9VfNDOU5hj0cdtd6LF0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 06:40:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk="
+        }
+      ]
+    },
+    {
+      "Route": "frontend.html",
+      "AssetFile": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/frontend.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 06:40:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WnoX15fX/qGeME2pYEG9EtGMYwsRRaxt2u9WfFhGPKk="
+        }
+      ]
+    },
+    {
+      "Route": "frontend.html.gz",
+      "AssetFile": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/obj/Debug/net9.0/compressed/9bqzb508s9-abpei317qh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M/Od1+qpAX93TUE0fu1wkOj9VfNDOU5hj0cdtd6LF0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 06:40:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M/Od1+qpAX93TUE0fu1wkOj9VfNDOU5hj0cdtd6LF0c="
+        }
+      ]
+    }
+  ]
+}

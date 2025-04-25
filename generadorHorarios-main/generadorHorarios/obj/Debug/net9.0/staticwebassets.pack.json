@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/Neji21/Documentos/generadorHorarios-main/generadorHorarios/wwwroot/frontend.html",
+      "PackagePath": "staticwebassets/frontend.html"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.GeneradorHorarios.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.GeneradorHorarios.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.GeneradorHorarios.props",
+      "PackagePath": "build\\GeneradorHorarios.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.GeneradorHorarios.props",
+      "PackagePath": "buildMultiTargeting\\GeneradorHorarios.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.GeneradorHorarios.props",
+      "PackagePath": "buildTransitive\\GeneradorHorarios.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
